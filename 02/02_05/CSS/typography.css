@@ -143,6 +143,7 @@ h4 {
 	font-size: 1.2em;
 	line-height: 1;
 }
+
 /* Responsive Typography */
 
 .content {
@@ -157,7 +158,7 @@ h4 {
 }
 
 @media screen and (min-width: 60em) {
-	content {
+	.content {
 		font-size: 1.3em;
 		line-height: 1.4em;
 	}

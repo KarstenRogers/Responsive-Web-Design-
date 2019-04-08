@@ -23,6 +23,8 @@ Levels
     width: 50%;
     margin: 0 auto;
     border: 10px solid hsl(0, 0%, 80%);
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .level a:hover > .level-image,
