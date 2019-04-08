@@ -3,8 +3,7 @@ Boxes
 --------------------------------------------------------------*/
 
 .box {
-    max-width: 500px;
-    margin: 0 auto 1em;
+    margin: 0 0 1em;
 }
 
 .box a {
@@ -13,4 +12,31 @@ Boxes
     text-decoration: none;
     color: black;
     background: white;
+}
+
+@media screen and (min-width: 650px) {
+    .boxes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .box {
+        display: flex;
+        width: calc(50% - .5em);
+    }
+
+    .double {
+        flex: 2 0 100%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .box {
+        width: calc(33.333333% - .5em);
+    }
+
+    .double {
+        flex: none;
+    }
 }

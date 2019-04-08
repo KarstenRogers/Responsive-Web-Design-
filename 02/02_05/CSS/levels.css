@@ -40,3 +40,25 @@ Levels
 .level-blurb {
     font-style: italic;
 }
+
+@media screen and (min-width: 650px) {
+    .level-list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .level {
+        width: calc(50% - .5em);
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .double {
+        flex: none;
+    }
+
+    .level {
+        width: calc(33.333333% - .5em);
+    }
+}
