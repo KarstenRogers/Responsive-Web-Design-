@@ -17,7 +17,8 @@ Boxes
 
 .box a:hover,
 .box a:focus {
-    box-shadow: 0 4px 8px 2px hsla(0, 0%, 70%, .6)
+    box-shadow: 0 4px 8px 2px hsla(0, 0%, 70%, .6);
+    transform: rotate(2deg) scale(1.1);
 }
 
 @media screen and (min-width: 650px) {
