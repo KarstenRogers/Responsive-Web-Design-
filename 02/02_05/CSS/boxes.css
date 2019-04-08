@@ -21,6 +21,17 @@ Boxes
     transform: rotate(2deg) scale(1.1);
 }
 
+.featured-image {
+    -webkit-filter:brightness(0%);
+    filter:brightness(0%);
+}
+
+.box a:hover > .featured-image,
+.box a:focus > .featured-image {
+    -webkit-filter:brightness(100%);
+    filter:brightness(100%);
+}
+
 @media screen and (min-width: 650px) {
     .boxes {
         display: flex;
